@@ -11,6 +11,11 @@ button {
   text-transform: uppercase;
   width: 200px;
   cursor: pointer;
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 #placeholder {
   height: 100px;
@@ -20,4 +25,9 @@ button {
   border: 1px solid gray;
   border-radius: 10px;  
   font-size:80px;
+}
+input {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }

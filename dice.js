@@ -3,7 +3,7 @@ function Dice(sides) {
 }
 
 Dice.prototype.roll = function () {
-    var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+    var randomNumber = Math.floor(Math.random() * numberOfSides.value) + 1;
     return randomNumber;
 }
 
